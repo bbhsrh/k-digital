@@ -1,0 +1,31 @@
+1. 상위폴더에서
+git clone 'https://github.com/Kim-Chae-Rin/RecommandationService.git' 
+
+2. RecommandationService 폴더로 이동
+cd RecommandationService/
+
+3. git 인식
+git init
+
+4. 브랜치 생성 및 변경
+git checkout -b '브랜치명(이니셜 ex)kcr, ljy, ...)
+
+5. commit할 생성파일 인식
+(업데이트할 파일이 있는 경우 ex) test_kcr.txt)
+git add 'test_kcr.txt'
+
+6. 커밋
+git commit -m '커밋 메세지(ex) test)'
+
+7. 파일 올리기
+git push origin '브랜치명'
+
+
+8. GitHub에서 pull request 진행
+'create pull request'를 클릭하기 전 write에 메세지 작성
+(A부분 수정했습니다. 확인 부탁)
+!!! 오류 나는 게 정상입니다!!! 승인해야 올라가요!!!!
+
++++ 다른 사람이 코드 리뷰, 승인한 후 업로드 됩니다.
+!!!!!!! 절대 merge를 클릭하지 마세요!!!!!!!
+merge는 한 사람만 합니당
